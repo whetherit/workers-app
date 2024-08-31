@@ -1,0 +1,12 @@
+h1 {
+	text-align: center;
+}
+
+th {
+	cursor: pointer;
+	transition: color .3s;
+}
+
+th:hover {
+	color: #0d6efd;
+}
