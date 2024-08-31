@@ -73,7 +73,7 @@ document.getElementById("add-worker").addEventListener("submit", function (event
 		document.getElementById("input-surname").value,
 		document.getElementById("input-name").value,
 		document.getElementById("input-lastName").value,
-		Number(document.getElementById("input-workStart").valueOf),
+		Number(document.getElementById("input-workStart").value),
 		new Date(document.getElementById("input-birthDate").value),
 		document.getElementById("input-post").value
 	))
